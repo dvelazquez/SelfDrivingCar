@@ -14,7 +14,7 @@ h=480
 
 #Reference Images Display name & Original Name
 #ReferenceImages = ["ArrowL.jpg","ArrowR.jpg","ArrowT.jpg","Ball.jpg","Go.jpg","Stop.jpg90","Turn Around","Search for Ball","Start..","Stop!"]
-ReferenceImages = ["ArrowL.jpg","ArrowR.png","Stop.jpg"]
+ReferenceImages = ["ArrowL.jpg","ArrowR.jpg","Stop.jpg"]
 ReferenceTitles = ["Left","Right","Stop"]
 
 #define class for References Images
@@ -123,7 +123,7 @@ def main():
 
 
     # initialize the camera and grab a reference to the raw camera capture
-    video = cv2.VideoCapture(0)
+    video = cv2.VideoCapture(1)
 
     #Windows to display frames
     cv2.namedWindow("Main Frame", cv2.WINDOW_AUTOSIZE)
